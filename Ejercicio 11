@@ -1,0 +1,18 @@
+# Una panadería vende barras de pan a $3.49 pesos cada una. El pan que no es del día tiene un descuento del 60%. 
+# Escribir un programa que comience leyendo el número de barras vendidas que NO son del día. 
+# Después el programa debe mostrar el precio habitual de una barra de pan, el descuento que se le hace por no ser fresca y el coste final total.
+
+
+Barras = int(input("Ingrese el numero de barras vendidas que NO son del dia: "))
+
+Precio_Normal = 3.49
+print("El precio normal de una barra de pan es de: ", Precio_Normal)
+
+Precio_Descuento = Precio_Normal * 0.60
+print("El descuento por barra de pan por No ser fresca es de: ", Precio_Descuento)
+
+Descuento_barra = Precio_Normal - Precio_Descuento
+print("El precio final por barra es de: ", Descuento_barra)
+
+Valor_Final= Precio_Descuento * Barras
+print("El valor final es de: ",Descuento_barra * Barras)
